@@ -1,0 +1,29 @@
+ /* Full credit to code.org for task */
+  
+p {
+  color: black;
+}
+h1 {
+  color: green;
+  font-family: courior, monospace;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #00BBF9;
+  box-shadow: 1px 3px 30px 1px #78e8e8;
+}
+
+p{color:blanchedalmond;}
+
+body{background-color: #55b3e2;}
+
+img{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
